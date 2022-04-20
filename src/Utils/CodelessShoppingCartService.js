@@ -13,7 +13,6 @@ const Utils = {
   isBoolean: obj => Object.prototype.toString.call(obj).slice(8, -1) === 'Boolean',
   isDate   : obj => Object.prototype.toString.call(obj).slice(8, -1) === 'Date'
 }
-
 Backendless.APIServices.CodelessShoppingCartService = {
   getInstructions() { 
     const args = null
