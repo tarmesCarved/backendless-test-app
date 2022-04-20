@@ -40,4 +40,15 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script type="text/javascript" src="https://api.backendless.com/sdk/js/latest/backendless.min.js"></script>
+  <script type="text/javascript">
+    const appId = '0BAB5C7A-A853-EAFC-FFED-1D38AC0A6A00';
+    const apiKey = 'AA49650D-9602-4ADE-BACA-53C77071ED8A';
+    const serverURL = 'https://api.backendless.com';
+  
+    Backendless.serverURL = serverURL;
+    Backendless.initApp(appId, apiKey);
+  </script>
+  <script type="text/javascript" src="./Utils/CodelessShoppingCartService.js" ></script>
+
 </html>
